@@ -1,0 +1,6 @@
+framework module Pods_iTunesTopChartTests {
+  umbrella header "Pods-iTunesTopChartTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

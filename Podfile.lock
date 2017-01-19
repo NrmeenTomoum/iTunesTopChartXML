@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - AlamofireXmlToObjects (2.1.0):
+    - Alamofire
+    - EVReflection
+    - XMLDictionary
+  - DirectedPinchGestureRecognizer (1.0.0)
+  - EVReflection (3.5.2)
+  - Kingfisher (3.2.4)
+  - PhotoSlider (0.14.1):
+    - Kingfisher
+  - ReachabilitySwift (3)
+  - SwiftyXMLParser (3.0.0)
+  - XMLDictionary (1.4)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - AlamofireXmlToObjects
+  - DirectedPinchGestureRecognizer (~> 1.0)
+  - PhotoSlider
+  - ReachabilitySwift (~> 3)
+  - SwiftyXMLParser
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  AlamofireXmlToObjects: 3614c4945a5b154041ea9ade99644b5de66d5857
+  DirectedPinchGestureRecognizer: ca1466bc6e9cba73e9b1411fa291ade9f1595725
+  EVReflection: 3a9e1e41661ad7f0f86a4f5e5a6a7ef999c63819
+  Kingfisher: 8d80f39da403cd9c9ee11984e1655f4d6a566cdb
+  PhotoSlider: ed3588385b9d8fbdbbc76f1f2ab4d1311d501ef2
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftyXMLParser: 8d2295fb4fbc6e2ff241e7c8d7717e159be35969
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+
+PODFILE CHECKSUM: b5b5ce1fd7baabdbb77c468512669ad9d148b9ef
+
+COCOAPODS: 1.1.1
