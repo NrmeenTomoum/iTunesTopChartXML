@@ -18,6 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <activityIndicatorView key="tableFooterView" hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" id="dcL-67-ou3">
+                            <rect key="frame" x="0.0" y="72" width="375" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </activityIndicatorView>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="gFO-2e-mCM" customClass="TableViewCell" customModule="iTunesTopChart" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -68,12 +73,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="H9b-ei-N0N"/>
                     <connections>
+                        <outlet property="indector" destination="dcL-67-ou3" id="N8K-dv-KdI"/>
                         <outlet property="table" destination="KOx-Yw-el5" id="QgO-ft-gpX"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mpp-47-lbC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1644" y="-232"/>
+            <point key="canvasLocation" x="1628" y="-233"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gSM-De-kaj">
@@ -91,7 +97,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Phm-m6-u4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="816.79999999999995" y="-181.25937031484258"/>
+            <point key="canvasLocation" x="887" y="-233"/>
         </scene>
     </scenes>
 </document>

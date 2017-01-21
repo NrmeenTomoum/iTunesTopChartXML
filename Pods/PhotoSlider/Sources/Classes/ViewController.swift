@@ -36,6 +36,7 @@ public class ViewController:UIViewController {
     var closeAnimating = false
     var imageViews: [PhotoSlider.ImageView] = []
     var previousPage = 0
+    var urlLink :String?
     var captionLabel = UILabel(frame: CGRect.zero)
 
     // For ScrollViewDelegate
@@ -49,8 +50,10 @@ public class ViewController:UIViewController {
     public var pageControl = UIPageControl()
     public var backgroundViewColor = UIColor.black
     public var captionTextColor = UIColor.white
-    public init(imageURLs:Array<URL>) {
+    public init(imageURLs:Array<URL>,urlLink:String) {
+        
         super.init(nibName: nil, bundle: nil)
+        self.urlLink = urlLink
         self.imageURLs = imageURLs
         usingImageType = .URL
     }
@@ -259,8 +262,8 @@ extension ViewController: UIScrollViewDelegate {
     
    public func handleDoubleTap() {
             print("here scrollView scrollView scrollView scrollView ")
-    var instagramHooks = "http://iTunes.com/"
-    var instagramUrl = NSURL(string: instagramHooks)
+    var instagramHooks = urlLink
+    var instagramUrl = NSURL(string: instagramHooks!)
     if UIApplication.shared.canOpenURL(instagramUrl! as URL)
     {
         UIApplication.shared.openURL(instagramUrl! as URL)
