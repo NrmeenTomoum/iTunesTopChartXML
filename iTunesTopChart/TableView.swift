@@ -21,6 +21,8 @@ class TableView: UITableViewController {
   var links = [String]()
     @IBOutlet var table: UITableView!
     override func viewDidLoad() {
+    // DBManger.insertData()
+     //   DBManger.selectData()
         if NetWorkAvailability.isInternetAvailable()
         {
             reloadAllData()

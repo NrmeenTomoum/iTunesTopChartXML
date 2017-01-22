@@ -15,6 +15,10 @@
 		68226F531E300E3D003EC294 /* NetWorkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68226F521E300E3D003EC294 /* NetWorkAvailability.swift */; };
 		68226F551E3013EE003EC294 /* PhotoSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68226F541E3013EE003EC294 /* PhotoSliderViewController.swift */; };
 		6840C7EB1E2DD3AD0071EB85 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6840C7EA1E2DD3AD0071EB85 /* TableViewCell.swift */; };
+		684D3ED81E33F74A002A1D87 /* DBManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D3ED71E33F74A002A1D87 /* DBManger.swift */; };
+		684D3EDA1E3407FB002A1D87 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D3ED91E3407FB002A1D87 /* DatabaseController.swift */; };
+		684D3EF11E341BEC002A1D87 /* Tones+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D3EEF1E341BEC002A1D87 /* Tones+CoreDataClass.swift */; };
+		684D3EF21E341BEC002A1D87 /* Tones+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D3EF01E341BEC002A1D87 /* Tones+CoreDataProperties.swift */; };
 		685BFD141E2D812F0085B610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685BFD131E2D812F0085B610 /* AppDelegate.swift */; };
 		685BFD191E2D812F0085B610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685BFD171E2D812F0085B610 /* Main.storyboard */; };
 		685BFD1C1E2D812F0085B610 /* iTunesTopChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 685BFD1A1E2D812F0085B610 /* iTunesTopChart.xcdatamodeld */; };
@@ -53,6 +57,10 @@
 		68226F521E300E3D003EC294 /* NetWorkAvailability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkAvailability.swift; sourceTree = "<group>"; };
 		68226F541E3013EE003EC294 /* PhotoSliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSliderViewController.swift; sourceTree = "<group>"; };
 		6840C7EA1E2DD3AD0071EB85 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		684D3ED71E33F74A002A1D87 /* DBManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManger.swift; sourceTree = "<group>"; };
+		684D3ED91E3407FB002A1D87 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		684D3EEF1E341BEC002A1D87 /* Tones+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tones+CoreDataClass.swift"; sourceTree = "<group>"; };
+		684D3EF01E341BEC002A1D87 /* Tones+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tones+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		685BFD101E2D812F0085B610 /* iTunesTopChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesTopChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		685BFD131E2D812F0085B610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		685BFD181E2D812F0085B610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -121,7 +129,11 @@
 		681D8F7D1E2DC77B001A8A63 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				684D3EEF1E341BEC002A1D87 /* Tones+CoreDataClass.swift */,
+				684D3EF01E341BEC002A1D87 /* Tones+CoreDataProperties.swift */,
+				684D3ED91E3407FB002A1D87 /* DatabaseController.swift */,
 				685BFD1A1E2D812F0085B610 /* iTunesTopChart.xcdatamodeld */,
+				684D3ED71E33F74A002A1D87 /* DBManger.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -506,12 +518,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				685BFD1C1E2D812F0085B610 /* iTunesTopChart.xcdatamodeld in Sources */,
+				684D3EF21E341BEC002A1D87 /* Tones+CoreDataProperties.swift in Sources */,
 				68226F531E300E3D003EC294 /* NetWorkAvailability.swift in Sources */,
+				684D3ED81E33F74A002A1D87 /* DBManger.swift in Sources */,
 				6840C7EB1E2DD3AD0071EB85 /* TableViewCell.swift in Sources */,
 				680E5B161E2D88AC009ECE9D /* Entry.swift in Sources */,
 				68E4C24B1E3071AE00D23EAE /* ActivityIndicatorProtocol.swift in Sources */,
 				681D8F841E2DCE41001A8A63 /* TableView.swift in Sources */,
+				684D3EF11E341BEC002A1D87 /* Tones+CoreDataClass.swift in Sources */,
 				685BFD141E2D812F0085B610 /* AppDelegate.swift in Sources */,
+				684D3EDA1E3407FB002A1D87 /* DatabaseController.swift in Sources */,
 				681D8F801E2DC7B4001A8A63 /* WebServiceManger.swift in Sources */,
 				68226F551E3013EE003EC294 /* PhotoSliderViewController.swift in Sources */,
 				681D8F821E2DC885001A8A63 /* ServicesURLs.swift in Sources */,
